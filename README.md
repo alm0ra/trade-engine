@@ -14,10 +14,14 @@ a library for demo trading | backtest and forward test simulation
 ## Features
 - [x] **Limit/Market orders**: you can place a Limit or Market order in 2 side "long", "Short" .
 - [x] **SL/TP set**: you can set stop loss and take profit for your market or limit order .
+
 # Documentations
-    ..
+    soon...
+
 # Getting start
-install package using PyPI
+
+### install package
+install package using [PyPI](https://pypi.org/project/trade-engine/)
 ```bash
 pip install trade-engine
 ```
@@ -27,6 +31,7 @@ from trade_engine import TradeEngine
 engine = TradeEngine()
 
 ```
+
 # Contributing
 Contributions are very welcome. There are a number of requirements:
 * See Issues tab, and feel free to submit your own issues
