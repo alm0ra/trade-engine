@@ -1,5 +1,5 @@
 import pandas as pd
-from operations import EngineOperation
+from .operations import EngineOperation
 
 
 class TradeEngine:
