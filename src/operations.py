@@ -1,5 +1,7 @@
-from typing import Sized
 class EngineOperation:
+    """Engine Operations
+    All operations realted to TradeEngine class wrote here
+    """
     def __init__(self) -> None:
         pass
     

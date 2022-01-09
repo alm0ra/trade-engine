@@ -3,7 +3,19 @@ from operations import EngineOperation
 
 
 class TradeEngine:
-
+    
+    """Trade Engine Library
+    if you want develope a backtest or forward test simulator welcome to TradeEngine
+    in this class we have 2 type of order
+    
+        Limit order:
+            a Limit order will execeute when price arrive to enter price
+            and will known  as a position.
+        Market order:
+            a Market order will execute immediatly turn to position
+            Market orders will close when price arrive to stop loss
+            or take profit price.
+    """
     def __init__(self) -> None:
         self.operations = EngineOperation()
         
@@ -73,7 +85,11 @@ class TradeEngine:
             high (float): high price
             low (float): low price
             close (float): close price
-        """        
+        """
+        self.open_price = open
+        self.high_price = high
+        self.low_price = low
+        self.close_price = close
         self.check_orders(high=high, low=low, close=close)
         self.check_positions(high=high, low=low, close=close)
         
@@ -279,7 +295,6 @@ class TradeEngine:
 
 
         self.trade_list.append(position)
-
 
     def save_trade_report(self, report_path="./"):
         """
