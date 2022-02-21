@@ -16,7 +16,8 @@ a library for demo trading | backtest and forward test simulation
 - [x] **SL/TP set**: you can set stop loss and take profit for your market or limit order .
 
 # Documentations
-    (Trade Engine)[https://xibalbas.github.io/trade-engine/] full documentations
+[Trade Engine](https://xibalbas.github.io/trade-engine/) full documentations
+
 
 # Getting start
 
