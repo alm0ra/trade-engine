@@ -9,7 +9,7 @@
 ![PyPI](https://img.shields.io/pypi/v/trade-engine)
 # Trade Engine
 
-a library for demo trading | backtest and forward test simulation
+a library for demo trading | backtest and forward test simulation for python >= 3.8
 
 ## Features
 - [x] **Limit/Market orders**: you can place a Limit or Market order in 2 side "long", "Short" .
